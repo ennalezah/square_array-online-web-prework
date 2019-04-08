@@ -5,6 +5,6 @@ def square_array(numbers)
   
   numbers.each do |num|
     sqared = num**2
-    sq_numbers << squared
+    sq_numbers = [squared]
   end
 end
